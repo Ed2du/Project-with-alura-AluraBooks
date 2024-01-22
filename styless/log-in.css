@@ -1,0 +1,76 @@
+.login__area {
+    padding: 1em;
+    background: var(--primary-color);
+    font-family: var(--font-family);
+}
+
+.login__title, .login__paragraph, .login__input {
+    margin: 0.8em 0;
+}
+
+.login__title {
+    background: var(--terciary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.125rem;
+    font-weight: 500 bold;
+}
+
+.login__paragraph {
+    background: var(--terciary-color);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.login__input {
+    padding: 1em;
+    width: 90%;
+    background: transparent;
+    border: 1px solid #1c3d68;
+    border-radius: 30px;
+}
+
+.login__input::placeholder {
+    color: #1c3d68;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    background-image: url("../images/Email.svg");
+    background-position: 1em;
+    padding: 0 3em;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1024px) {
+    .login__area {
+        display: flex;
+        gap: 90px;
+        padding: 2em;
+    }
+
+    .login__title {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .login__input {
+        width: 150%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1278px) {
+    .login__area {
+        padding: 2em 20vw;
+    }
+
+    .login__input {
+        margin-top: 2em;
+        padding: 1em 2em;
+    }
+}

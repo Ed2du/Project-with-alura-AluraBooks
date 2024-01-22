@@ -1,0 +1,28 @@
+@import url("../styless/header.css");
+@import url("../styless/banner.css");
+@import url("../styless/carrossel.css");
+@import url("../styless/topicos.css");
+@import url("../styless/log-in.css");
+@import url("../styless/footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap');
+
+/*Paleta de cores*/
+
+:root {
+    --header-font-color: #000000;
+    --primary-color: #fff;
+    --secondary-color: #EB9B00;
+    --background-color: #EBECEE;
+    --terciary-color: linear-gradient(98deg, #002F52 35.49%, #255170 165.37%);
+    --font-family: 'Poppins', sans-serif;
+    --second-font-family: 'Josefin Sans', sans-serif;
+    --footer-font-color: #474646;
+    --footer-title-color: #858585;
+
+}
+
+body {
+    background-color: var(--background-color);
+}
